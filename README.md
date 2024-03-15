@@ -7,6 +7,8 @@
 ###### Header 6
 ***
 
+# Formating text
+
 *Italic text*
 
 **Semibold text**
@@ -15,7 +17,6 @@
 
 ~~crossed out text~~ 
 
-> quote text lorem ipsum.
 > quote text lorem ipsum.
 
 ***

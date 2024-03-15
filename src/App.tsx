@@ -1,24 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import GoalsList from './components/GoalsList';
+import SecondaryButton from './components/UI/Button/Secondary';
+import Input from './components/UI/Input';
 
 function App() {
+  const [showInput, setShowInput] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='wrapper'>
+      <div className='buttonWrapper'>
+        <SecondaryButton text='Add goal' size='md'/>
+        { showInput && <Input placeholder='Type your goal' /> }
+      </div>
+      <GoalsList />
     </div>
   );
 }

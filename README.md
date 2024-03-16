@@ -94,4 +94,14 @@ Name|Role
 ----|----
 Roman|Frontend 
 Halyna|PM       
-Yuriy|QA       
+Yuriy|QA    
+
+***
+
+# Abbreviations
+
+Markdown
+: Tools for writing prety text
+
+HTML
+: Hyper text markup language

@@ -90,8 +90,8 @@ const test = {
 
 # Table
 
-Name      |Role     
-----------|---------
+Name|Role     
+----|----
 Roman|Frontend 
 Halyna|PM       
 Yuriy|QA       

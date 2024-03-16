@@ -98,10 +98,7 @@ Yuriy|QA
 
 ***
 
-# Abbreviations
+# Keys
 
-Markdown
-: Tools for writing prety text
-
-HTML
-: Hyper text markup language
+<kbd>Ctrl</kbd>+<kbd>C</kbd>
+<kbd>Ctrl</kbd>+<kbd>V</kbd>

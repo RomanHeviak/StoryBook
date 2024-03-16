@@ -92,5 +92,6 @@ const test = {
 
 Name      |Role     
 ----------|---------
-Roman     |Frontend 
-Halyna    |PM       
+Roman|Frontend 
+Halyna|PM       
+Yuriy|QA       

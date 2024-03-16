@@ -53,3 +53,35 @@
 
 - [ ] unmarked 
 - [x] unmarked 
+
+***
+
+# Code snippet
+
+Code without colors
+
+```
+const test = {
+    name: 'Roman',
+    lastName: 'Heviak',
+    hobbies: [
+        { name: 'Squash' },
+        { name: 'Swim' },
+        { name: 'Swowboard' },
+    ]
+}
+```
+
+Code with colors
+
+```javascript
+const test = {
+    name: 'Roman',
+    lastName: 'Heviak',
+    hobbies: [
+        { name: 'Squash' },
+        { name: 'Swim' },
+        { name: 'Swowboard' },
+    ]
+}
+```

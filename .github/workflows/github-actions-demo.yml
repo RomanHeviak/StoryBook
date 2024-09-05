@@ -19,3 +19,6 @@ jobs:
       - name: Checking npm install
         run: npm install
         working-directory: ./
+      - name: Running tests
+        run: npm run test
+        working-directory: ./

@@ -1,5 +1,5 @@
 name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+run-name: ${{ github.actor }} is testing out GitHub Actions for PDP! 🚀
 on: [pull_request]
 jobs:
   Explore-GitHub-Actions:
@@ -16,3 +16,9 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - name: Checking npm install
+        run: npm install
+        working-directory: ./
+      - name: Running tests
+        run: npm run test
+        working-directory: ./
